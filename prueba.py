@@ -46,7 +46,7 @@ def visualizar_csv(file_name):
     try:
         with open(file_name, "r", newline="") as file:
             reader = csv.reader(file)
-            print("Contenido del archivo CSV:")
+            print("Contenido del archivo CSV::")
             for row in reader:
                 print(",".join(row))
     except Exception as e:
